@@ -1,7 +1,3 @@
-Certainly! Here's a revised version of your README file for the ABDToken ERC20 Smart Contract, incorporating the suggested improvements:
-
----
-
 # ABDToken - ERC20 Smart Contract
 
 ## Overview
