@@ -10,7 +10,7 @@ contract ABD_TokenTest is Test {
     address account2 = address(2);
 
     function setUp() public {
-        token = new ABD_Token(1000);
+        token = new ABD_Token(1000000);
     }
 
     function testInitialBalanceUsingDeployer() public {

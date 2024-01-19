@@ -1,13 +1,20 @@
-// SPDX-License-Identifier: UNLICENSED
+// SPDX-License-Identifier: MIT
 pragma solidity 0.8.23;
 
-import "src/ABD_Token.sol";
-import {Script, console} from "forge-std/Script.sol";
+import {Script, console2} from "forge-std/Script.sol";
+import {ABD_Token} from "../src/ABD_Token.sol";
 
 contract ABD_TokenScript is Script {
-    function setUp() public {}
+    function run() external returns (ABD_Token) {
+        vm.startBroadcast();
 
-    function run() public {
-        vm.broadcast();
+        // Example total supply value
+        uint256 totalSupply = 1000000 * 10 ** 18;
+
+        // Deploy the ABD_Token contract with the specified total supply
+        ABD_Token abd_token = new ABD_Token(totalSupply);
+
+        vm.stopBroadcast();
+        return abd_token;
     }
 }
