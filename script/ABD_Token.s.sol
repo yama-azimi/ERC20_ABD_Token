@@ -3,8 +3,11 @@ pragma solidity 0.8.23;
 
 import {Script, console2} from "forge-std/Script.sol";
 import {ABD_Token} from "../src/ABD_Token.sol";
+import "forge-std/console.sol";
 
 contract ABD_TokenScript is Script {
+    function setUp() public {}
+
     function run() external returns (ABD_Token) {
         vm.startBroadcast();
 

@@ -51,10 +51,6 @@ Deploy and test the contract on networks like Sepolia for development purposes. 
 - Users should perform due diligence and understand the risks before interacting with the contract.
 - Avoid sharing private keys or sensitive credentials.
 
-## Contributing
-
-Contributions to ABDToken are welcome! Please refer to the 'Contributing Guidelines' in the repository for more details on submitting pull requests, reporting bugs, or suggesting enhancements.
-
 ## License
 
 This project is licensed under the MIT License.
